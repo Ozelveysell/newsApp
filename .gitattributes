@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Dart dosyalarını öne çıkar
+*.dart linguist-language=Dart
+
+# Objective-C dosyalarını göz ardı et
+*.m linguist-vendored
+*.h linguist-vendored
+*.swift linguist-vendored
+*.plist linguist-vendored
+*.pbxproj linguist-vendored
