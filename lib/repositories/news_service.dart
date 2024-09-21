@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:news_app/models/news_model.dart';
 
 class NewsService {
-  final String apiKey = 'K3kd2cgDukhclT_iIfZNLQlBfob3oDN1MfTwRQByVDDQOSri'; 
+  final String apiKey = 'YOUR_API_KEY'; 
   final String apiUrl = 'https://api.currentsapi.services/v1/latest-news';
 
   // Her istekte 50 haber çeken fonksiyon
